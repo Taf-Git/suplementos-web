@@ -123,3 +123,19 @@ footer {
 .nivel-avanzado {
     border-left: 4px solid #2980b9;
 }
+
+@media (max-width: 768px) {
+
+    .tarjeta-categoria,
+    .nivel-basico,
+    .nivel-intermedio,
+    .nivel-avanzado {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
