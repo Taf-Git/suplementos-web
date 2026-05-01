@@ -77,6 +77,7 @@ section h2 {
     border-radius: 8px;
     vertical-align: top;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
 }
 
 .categoria-deportes {
@@ -98,6 +99,7 @@ section h2 {
     border-radius: 8px;
     vertical-align: top;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
 }
 
 section h3 {
