@@ -102,3 +102,7 @@ Cierra con párrafo de contexto crítico.
 - Omega 3
 - Magnesio
 - Vitamina D
+
+## Organización de chats en el proyecto
+- Chat principal: desarrollo web (HTML, CSS, JS, estructura, GitHub)
+- Un chat por suplemento: investigación, redacción y revisión de contenido
