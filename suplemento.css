@@ -13,7 +13,7 @@ main {
 .nivel {
     width: 100%;
     border-radius: 12px;
-    padding: 32px;
+    padding: 16px;
     margin-bottom: 24px;
 }
 
@@ -49,4 +49,48 @@ details[open] summary {
     margin-bottom: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 16px;
+}
+
+.nivel h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.nivel h3:first-child {
+    margin-top: 0;
+}
+
+.nivel p {
+    line-height: 1.7;
+    margin-bottom: 12px;
+    color: #444;
+}
+
+.nivel a {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #2980b9;
+    margin-top: 4px;
+    margin-bottom: 20px;
+}
+
+.nivel-basico div,
+.nivel-intermedio div,
+.nivel-avanzado div {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.nivel-avanzado div h3 {
+    border-bottom: none;
+    color: #2980b9;
+    font-size: 1rem;
 }
