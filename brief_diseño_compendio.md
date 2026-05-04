@@ -162,6 +162,25 @@ Mantener siempre el mismo estilo de dibujo (las mismas proporciones, los mismos 
 - Nunca emojis en el cuerpo del contenido (sí en metadatos puntuales decorativos como el ●).
 - Nunca el kodama hablando.
 
+## 14. Sistema de filtrado de contenido
+
+Cada bloque de texto del cuerpo lleva etiquetas de categoría y nivel:
+- **Nivel**: básico | intermedio | avanzado
+- **Categoría**: global | deporte | salud | cognición | patología específica
+
+Un bloque puede tener múltiples etiquetas. El toggle de niveles filtra por nivel.
+En el futuro, un selector de perfil filtrará por categoría.
+
+Ejemplo de etiquetado conceptual:
+- "La creatina reduce el deterioro cognitivo..." → [intermedio, cognición]
+- "La creatina aumenta la fuerza muscular..." → [básico, global]
+- "El estudio Gualano 2014..." → [avanzado, deporte, salud]
+
+Regla de contenido global: siempre visible independientemente del perfil.
+Regla de degradación: si un usuario selecciona "deporte" y un bloque
+no tiene etiqueta de deporte, se oculta. Si queda menos del 40% del
+contenido visible, se muestra igualmente para evitar páginas vacías.
+
 ---
 
 ## Próximos pasos sugeridos
