@@ -98,7 +98,7 @@ Cierra con párrafo de contexto crítico.
 - Ashwagandha (Withania somnifera) — completo en tres niveles
 
 ## Suplementos pendientes
-- Creatina (siguiente)
+- Creatina (Creatina monohidrato) — completo en tres niveles
 - Omega 3
 - Magnesio
 - Vitamina D
