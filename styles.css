@@ -88,6 +88,11 @@ section h2 {
     border-left: 4px solid #2980b9;
 }
 
+.categoria-cognicion {
+    border-left: 4px solid #C49237;
+}
+
+
 .nivel-basico,
 .nivel-intermedio,
 .nivel-avanzado {
@@ -163,3 +168,48 @@ header a:hover {
     color: inherit;
     display: block;
 }
+
+#panel-funcion {
+    background-color: #f8f5ef;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 32px;
+    margin: 0 32px 32px 32px;
+}
+
+#panel-funcion h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.grupo-funcion {
+    margin-bottom: 24px;
+}
+
+.grupo-funcion h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.etiquetas-funcion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.etiquetas-funcion span {
+    background-color: #e8e0d0;
+    color: #444;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    border: 1px solid #d4c7a

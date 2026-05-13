@@ -29,8 +29,87 @@
         <h1>Suplementos explicados de manera clara y científica</h1>
         <p>Encuentra tu suplemento por nombre o por cómo te puede ayudar.</p>
         <a href="#">Índice de suplementos</a>
-        <a href="#">Búsqueda por función</a>
+        <a href="#" id="btn-busqueda-funcion">Búsqueda por función</a>
     </header>
+
+    <div id="panel-funcion" style="display:none;">
+        <h3>¿Qué quieres mejorar?</h3>
+
+        <div class="grupo-funcion">
+            <h4>Rendimiento deportivo</h4>
+            <div class="etiquetas-funcion">
+                <span>Calambres</span>
+                <span>Hidratación</span>
+                <span>Hipertrofia</span>
+                <span>Post-entrenamiento</span>
+                <span>Pre-entrenamiento</span>
+                <span>Recuperación muscular</span>
+                <span>Resistencia</span>
+            </div>
+        </div>
+
+        <div class="grupo-funcion">
+            <h4>Salud general y metabolismo</h4>
+            <div class="etiquetas-funcion">
+                <span>Antienvejecimiento</span>
+                <span>Antioxidantes</span>
+                <span>Capilar</span>
+                <span>Circulación</span>
+                <span>Colesterol</span>
+                <span>Control de peso</span>
+                <span>Control glucémico</span>
+                <span>Inflamación</span>
+                <span>Piel</span>
+                <span>Presión arterial</span>
+                <span>Retención de líquidos</span>
+                <span>Salud cardiovascular</span>
+                <span>Salud ocular</span>
+                <span>Sistema inmune</span>
+            </div>
+        </div>
+
+        <div class="grupo-funcion">
+            <h4>Mente y sistema nervioso</h4>
+            <div class="etiquetas-funcion">
+                <span>Ánimo</span>
+                <span>Estrés</span>
+                <span>Función cognitiva</span>
+                <span>Memoria</span>
+                <span>Sueño</span>
+            </div>
+        </div>
+
+        <div class="grupo-funcion">
+            <h4>Salud musculoesquelética</h4>
+            <div class="etiquetas-funcion">
+                <span>Articulaciones</span>
+                <span>Huesos</span>
+                <span>Sarcopenia</span>
+            </div>
+        </div>
+
+        <div class="grupo-funcion">
+            <h4>Salud digestiva y detox</h4>
+            <div class="etiquetas-funcion">
+                <span>Absorción de nutrientes</span>
+                <span>Acidez</span>
+                <span>Detox</span>
+                <span>Digestión</span>
+                <span>Función hepática</span>
+                <span>Microbiota intestinal</span>
+            </div>
+        </div>
+
+        <div class="grupo-funcion">
+            <h4>Salud hormonal y específica</h4>
+            <div class="etiquetas-funcion">
+                <span>Fertilidad</span>
+                <span>Libido</span>
+                <span>Menopausia</span>
+                <span>Salud prostática</span>
+            </div>
+        </div>
+    </div>
 
     <section id="categorías">
         <h2>Explora por categoría</h2>
@@ -46,6 +125,13 @@
                 <h3>Salud</h3>
                 <p>Suplementos para el bienestar general, la prevención y el apoyo a condiciones específicas.</p>
                 <span>Ver suplementos de salud</span>
+            </a>
+        </div>
+        <div class="tarjeta-categoria categoria-cognicion">
+            <a href="#">
+                <h3>Cognición</h3>
+                <p>Suplementos para mejorar el rendimiento mental, la memoria y la función cognitiva.</p>
+                <span>Ver suplementos de cognición</span>
             </a>
         </div>
     </section>
@@ -70,6 +156,20 @@
     <footer>
         <p>© 2026 Suplementos Web - Información basada en evidencia científica.</p>
     </footer>
+
+    <script>
+        const btnBusqueda = document.getElementById('btn-busqueda-funcion');
+        const panelFuncion = document.getElementById('panel-funcion');
+
+        btnBusqueda.addEventListener('click', function (e) {
+            e.preventDefault();
+            if (panelFuncion.style.display === 'none') {
+                panelFuncion.style.display = 'block';
+            } else {
+                panelFuncion.style.display = 'none';
+            }
+        });
+    </script>
 
 </body>
 
